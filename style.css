@@ -1,0 +1,21 @@
+:root { color-scheme: dark; --ink: #10151e; --paper: #e9e2d4; --muted: #a6a9ae; --line: #424a52; --accent: #c2aa7b; }
+* { box-sizing: border-box; }
+html { min-height: 100%; }
+body { margin: 0; min-height: 100vh; background: var(--ink); color: var(--paper); font-family: Georgia, "Times New Roman", serif; }
+.page-shell { min-height: 100vh; max-width: 1200px; margin: 0 auto; padding: clamp(24px, 6vw, 72px); display: flex; flex-direction: column; }
+.masthead { display: flex; align-items: center; gap: 17px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.mark { color: var(--accent); border: 1px solid var(--accent); width: 49px; height: 49px; display: grid; place-items: center; font-size: 26px; }
+.masthead-text { display: flex; flex-direction: column; gap: 5px; }
+.masthead-text strong, .masthead-text span, .eyebrow, .notice, footer { font-family: Arial, Helvetica, sans-serif; }
+.masthead-text strong { font-size: 13px; letter-spacing: 0.18em; }
+.masthead-text span { color: var(--muted); font-size: 11px; letter-spacing: 0.1em; }
+main { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: clamp(70px, 12vh, 130px) 0; }
+.eyebrow { margin: 0 0 28px; color: var(--accent); font-size: 12px; letter-spacing: 0.21em; text-transform: uppercase; }
+.eyebrow span { color: #6d747b; padding: 0 8px; }
+h1 { font-size: clamp(54px, 9vw, 115px); font-weight: 400; letter-spacing: -0.045em; line-height: 1.07; margin: 0 0 40px; }
+h1 em { color: var(--accent); font-weight: normal; }
+.introduction { max-width: 680px; font-size: clamp(20px, 2.5vw, 28px); line-height: 1.5; margin: 0 0 25px; }
+.notice { max-width: 520px; color: var(--muted); font-size: 14px; line-height: 1.8; margin: 0; }
+.rule { width: 84px; height: 2px; background: var(--accent); margin-top: 42px; }
+footer { display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); padding-top: 25px; color: var(--muted); font-size: 10px; letter-spacing: 0.14em; }
+@media (max-width: 600px) { footer { flex-direction: column; gap: 8px; } .masthead-text strong { font-size: 11px; } }
