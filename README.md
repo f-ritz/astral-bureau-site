@@ -31,3 +31,29 @@ The page intentionally retains `<meta name="robots" content="noindex, nofollow">
 6. Remove the `noindex, nofollow` directive when ready for discovery.
 
 Do not commit client birth details, personal records, or secret API/payment credentials to the repository.
+
+## Legal and privacy — pre-launch, 2026-11-26
+
+Public pages:
+- `privacy.html` — accurate site-only visitor privacy notice; no client intake is active
+- `terms.html` — informational website terms and no-guarantees statement
+- `service-policy.html` — boundaries, not-professional-advice disclosure, and transparent unlaunched refund/cancellation policy
+
+These pages are specifically **pre-launch**, not a final legal contract or a substitute for counsel. The existing site still has `noindex,nofollow`.
+
+**Hard blockers before taking a single payment or birth-data submission:**
+1. Verify legal business identity, registration/DBA, business operating state(s), and publish a functioning business and privacy contact method.
+2. Publish service fulfillment times and delivery method, terms of purchase, final cancellation/rescheduling/refund policy, and checkout acknowledgements.
+3. Select payment and scheduling vendors; verify where they store client data and payment details. Do not store raw card numbers.
+4. Publish a revised privacy notice with the exact collection fields, processor list, retention periods, data rights procedures, and security controls.
+5. Create an internal written client-data retention/deletion policy and incident response plan. Prohibit using client birth records for unrelated investigations.
+6. Confirm if any accessibility, cookie-consent, tax, state consumer-protection, or regional data-protection requirements apply to the final intended operations.
+7. Have a qualified attorney review the final customer-facing materials for the operating jurisdiction(s) before paid launch.
+
+**Relevant regulatory sources (not embedded as citations in customer copy):**
+- https://www.ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics
+- https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business
+- https://www.mass.gov/info-details/the-massachusetts-consumer-protection-law
+- https://nebraskalegislature.gov/laws/statutes.php?statute=87-1103
+- https://www.mass.gov/regulations/201-CMR-1700-standards-for-the-protection-of-personal-information-of-ma-residents
+- https://www.cloudflare.com/cookie-policy/
